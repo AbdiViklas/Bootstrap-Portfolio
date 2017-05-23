@@ -9,52 +9,59 @@
 </head>
 <body>
 
-	<nav class="clearfix">
-		<div id="navContainer">
-			<h1 id="logo" class="floatLeft">
-				Andy Bonner
-			</h1>
-			<div id="navLinks" class="floatRight">
-			<div id="leftButton" class="navButton floatLeft"><a href="#">About</a></div>
-			<div id="midButton" class="navButton floatLeft"><a href="portfolio.html">Portfolio</a></div>
-			<div id="rightButton" class="navButton floatLeft"><a href="contact.html">Contact</a></div>
-			</div>
-		</div>
-	</nav>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
 
-	<main>
-		<div id="aboutContent" class="content box floatLeft">
-			<h1>
-				About Andy
-			</h1>
-			<div class="hrBig"></div>
-			<img src="assets/images/circuit-portrait.jpg" id="headshot" class="floatLeft">
-			<p>
-				I am a software engineer in Durham, NC, with experience in HTML, CSS, JavaScript, Sass, React, and Node.
-			</p>
-			<p>
-				My other interests include playing the violin, cooking, and picking out the perfect library books for my kids.
-			</p>
-		</div>
-
-		<div id="connect" class="sidebar box floatRight">
-			<h2>
-				Connect with Me
-			</h2>
-			<div class="hrLittle"></div>
-			<div id="iconBox">
-					<a href="#"><img src="assets/images/github-square.png" class="icon"></a>
-					<a href="#"><img src="assets/images/linkedin.png" class="icon"></a>
-					<a href="#"><img src="assets/images/stackoverflow.png" class="icon"></a>
-			</div>
-		</div>
-	</main>
-
-	<footer>
-		<p>
-			&copy; Copyright 2017 Andy Bonner
-		</p>
-	</footer>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 
 </body>
 </html>
