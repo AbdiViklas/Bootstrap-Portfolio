@@ -7,7 +7,8 @@
 /* all-purpose rules */
 
 	html {
-		height: 100%;
+		position: relative;
+		min-height: 100%;
 	}
 
 	#everything-wrapper {
@@ -21,14 +22,55 @@
 	  background: -moz-linear-gradient(#fff, #ddd); /* For Firefox 3.6 to 15 */
 	  background: linear-gradient(#fff, #ddd); /* Standard syntax */
 	  background-attachment: fixed;
+
+	  margin-bottom: 60px; /*to accomodate footer*/
 	}
 
 /* nav bar */
 
 /* main content */
-	.box {
-		background: #fefefe;
-		border: 1px solid #e7e7e7;
-		border-radius: 6px;
-		padding: 1%;
+
+	#about-header {
+		margin-top: 5px;
+	}
+
+	.hrBig, .hrLittle {
+	background: #ccc;
+	width: 100%;
+	margin: 20px 0px 20px 0px;
+	}
+
+	.hrBig {
+		height: 3px;
+	}
+
+	.hrLittle {
+		height: 2px;
+	}
+
+/* Connect sidebar */
+	.icon {
+		height: auto;
+		max-width: 60px;
+		display: inline-block;
+	}
+
+/* Bootstrap sticky footer */
+	.footer {
+	  position: absolute;
+	  bottom: 0;
+	  width: 100%;
+	  /* Set the fixed height of the footer here */
+	  height: 60px;
+	  background-color: #dcdcdc;
+	}
+
+	.container {
+	  width: auto;
+	  max-width: 680px;
+	  padding: 0 15px;
+	}
+
+	.container .text-muted {
+		margin: 20px 0;
 	}

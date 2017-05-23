@@ -33,19 +33,60 @@
 		</nav>
 
 		<div id="main" class="row">
-			<div class="md-col-8 rounded box">
-				<div class="page-header">
-					<h1>
-						About Andy
-					</h1>
-					<div class="divider"></div>
-					<img src="assets/images/circuit-portrait.jpg" id="headshot" class="img-rounded img-responsive">
-				</div>
+			<div class="col-md-8">
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<h1 id="about-header">
+							About Andy
+						</h1>
+						<div class="hrBig"></div>
+						<div class="row">
+							<div class="col-md-4">
+								<img src="assets/images/circuit-portrait.jpg" alt="portrait of Andy" id="headshot" class="img-rounded img-responsive">
+							</div> <!-- close portrait col -->
+							<div class="col-md-8">
+								<p>
+									I am a software engineer in Durham, NC, with experience in HTML, CSS, JavaScript, Sass, React, and Node.
+								</p>
+								<p>
+									My other interests include playing the violin, cooking, and picking out the perfect library books for my kids.
+								</p>
+							</div> <!-- close text col -->
+						</div> <!-- close sub-row -->
+					</div> <!-- close panel -->
+				</div> <!-- close panel-body -->
 			</div> <!-- close col 8 -->
-			<div class="md-col-4">
-
+			<div class="col-md-4">
+				<div class=" panel panel-default">
+					<div class="panel-body">
+						<h2>
+							Connect with Me
+						</h2>
+						<div class="hrLittle"></div>
+						<div id="iconBox" class="row">
+							<div class="col-xs-4">
+								<a href="#"><img src="assets/images/github-square.png" class="icon img-responsive center-block"></a>
+								<!-- Grr, why won't these center perfectly? -->
+							</div>
+							<div class="col-xs-4">
+								<a href="#"><img src="assets/images/linkedin.png" class="icon img-responsive center-block"></a>
+							</div>
+							<div class="col-xs-4">
+							<a href="#"><img src="assets/images/stackoverflow.png" class="icon img-responsive center-block"></a>
+							</div>
+						</div> <!-- close #iconBox -->
+					</div> <!-- close panel-body -->
+				</div> <!-- close panel -->
 			</div> <!-- close col 4 -->
 		</div> <!-- close main row -->
 	</div> <!-- close .container-fluid #everything-wrapper -->
+
+		<footer class="footer">
+		<div class="container">
+		<p id="copyright" class="text-muted text-center">
+			&copy; Copyright 2017 Andy Bonner
+		</p>
+		</div>
+	</footer>
 </body>
 </html>
