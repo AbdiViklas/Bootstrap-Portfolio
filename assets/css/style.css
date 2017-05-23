@@ -187,54 +187,6 @@
 
 /* for contact.html */
 
-	label {
-		display: block;
-		margin-top: 15px;
-	}
-
-	input, textarea {
-		width: 100%;
-		display: block;
-		margin: 5px 0;
-		padding: 10px;
-		border: 1px solid #ccc;
-	}
-
-	input {
-		min-height: 30px;
-	}
-
-	textarea {
-		min-height: 150px;
-	}
-
-	::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-	    color:    #ccc;
-	}
-	:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-	   color:    #ccc;
-	   opacity:  1;
-	}
-	::-moz-placeholder { /* Mozilla Firefox 19+ */
-	   color:    #ccc;
-	   opacity:  1;
-	}
-	:-ms-input-placeholder { /* Internet Explorer 10-11 */
-	   color:    #ccc;
-	}
-	::-ms-input-placeholder { /* Microsoft Edge */
-	   color:    #ccc;
-	}
-
-/*	button {
-		margin: 20px 0;
-		background: #4aaaa5;
-		border: none;
-		color: white;
-		padding: 10px 30px;
-		font-size: 100%;
-		cursor: pointer;
-	}*/
 
 /* "connect" sidebar */
 
