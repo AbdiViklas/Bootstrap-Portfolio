@@ -55,6 +55,11 @@
 		display: inline-block;
 	}
 
+/* Contact */
+	textarea {
+		min-height: 100px;
+	}
+
 /* Bootstrap sticky footer */
 	.footer {
 	  position: absolute;
