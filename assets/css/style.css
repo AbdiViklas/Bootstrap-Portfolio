@@ -58,7 +58,6 @@
 /* Portfolio */
 
 	.portfolio-caption {
-		/*width: 100%;*/
 		padding: 3px;
 		position: relative;
 		z-index: 10;
@@ -100,3 +99,7 @@
 	.container .text-muted {
 		margin: 20px 0;
 	}
+
+	html {
+  font-size: 14px;
+}
