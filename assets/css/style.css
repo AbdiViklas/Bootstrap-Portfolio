@@ -55,6 +55,21 @@
 		display: inline-block;
 	}
 
+/* Portfolio */
+
+	.portfolio-caption {
+		/*width: 100%;*/
+		padding: 3px;
+		position: relative;
+		z-index: 10;
+		top: -75px;
+		margin: 5px;
+		text-align: center;
+		background: rgba(0,0,0,0.5);
+		color: #eee;
+		font-weight: normal;
+	}
+
 /* Contact */
 	textarea {
 		min-height: 100px;
