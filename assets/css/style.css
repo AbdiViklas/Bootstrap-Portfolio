@@ -48,11 +48,15 @@
 		height: 2px;
 	}
 
+	#headshot {
+		max-width: 200px;
+		margin: 0 5px 5px 0;
+	}
+
 /* Connect sidebar */
 	.icon {
 		height: auto;
 		max-width: 60px;
-		display: inline-block;
 	}
 
 /* Portfolio */
